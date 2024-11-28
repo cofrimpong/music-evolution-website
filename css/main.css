@@ -1,0 +1,99 @@
+/* DEVELOPER Christabel Frimpong, IS117-003, Fall 2024 */
+
+
+body {
+    background-color: #f0f4f8;
+    color: #343a40;
+}
+
+.logo {
+    max-height: 40px;
+}
+
+.jumbotron {
+    background-color: #e3f2fd;
+    border: 1px solid #90caf9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    transition: transform 0.2s, box-shadow 0.2s;
+    border: 1px solid #ddd;
+    background-color: #ffffff;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.music-quote {
+    font-style: italic;
+    font-family: "Dancing Script", cursive;
+    color: #555;
+    margin-top: 10px;
+}
+
+.footer {
+    position: fixed;
+    middle: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #81c784;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.75rem;
+}
+
+.music-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.music-card:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.music-quote {
+    font-style: italic;
+    font-family: "Dancing Script", cursive;
+    color: #555;
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navbar-collapse {
+        width: 100%;
+    }
+    .footer {
+        font-size: 0.8rem;
+        padding: 15px;
+    }
+    .container {
+        padding: 10px;
+    }
+    .text-center {
+        font-size: 1.2rem;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.main-content {
+    min-height: 100vh;
+    padding-bottom: 50px;
+}
